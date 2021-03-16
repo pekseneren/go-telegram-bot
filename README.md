@@ -1,4 +1,4 @@
-# Go Telegram Bot
+# Telegram Bot with Go
 
 
 ### Steps
@@ -14,7 +14,7 @@ Send message with `https://api.telegram.org/bot<token>/sendMessage?chat_id=<chat
 
 ### Local Run
 
-Create .env file and set `BOT_TOKEN` and `CHAT_ID`
+Create .env file then set `BOT_TOKEN` and `CHAT_ID`
 
 Create image `docker build -t go-telegram-bot .`
 

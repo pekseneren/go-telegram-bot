@@ -7,6 +7,10 @@ import (
 )
 
 func main() {
+	sendMessage()
+}
+
+func sendMessage() {
 
 	token := os.Getenv("BOT_TOKEN")
 	chatid := os.Getenv("CHAT_ID")
