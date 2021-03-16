@@ -25,4 +25,4 @@ jobs:
       env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
-      run: go run -v ./...
+      run: go run -v ./... ${{ github.event.repository.name }}
